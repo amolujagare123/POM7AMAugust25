@@ -5,15 +5,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.io.IOException;
+
+import static util.ConfigReader.getUrl;
+
 public class OpenURL {
 
     public static  WebDriver driver ;
 
     @BeforeClass
-    public void openURL() {
+    public void openURL() throws IOException {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("http://localhost/ip");
+        driver.get(getUrl());
     }
 
 }
