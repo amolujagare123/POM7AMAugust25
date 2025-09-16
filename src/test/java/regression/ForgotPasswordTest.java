@@ -1,10 +1,8 @@
 package regression;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
-import pages.ForgotPassword;
-import pages.Login;
+import pages.Login.ForgotPassword;
+import pages.Login.Login;
 import util.OpenURL;
 
 public class ForgotPasswordTest extends OpenURL {

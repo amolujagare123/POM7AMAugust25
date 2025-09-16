@@ -3,7 +3,7 @@ package UITesting;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-import pages.Login;
+import pages.Login.Login;
 import util.OpenURL;
 
 import static util.ForUITests.*;

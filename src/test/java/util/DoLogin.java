@@ -1,8 +1,7 @@
 package util;
 
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeClass;
-import pages.Login;
+import pages.Login.Login;
 
 public class DoLogin extends OpenURL{
 
